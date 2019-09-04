@@ -1,0 +1,11 @@
+Feedback on mandatory exercise 1 for IN5270:
+
+I think that you have done a good job with this exercise and everything looks fine to me.
+
+Your report is easy and understandable to read and you have included enough of the
+mathematical steps so that it is possible to follow the derivations.
+
+Your code also looks pretty clean and easy to read, with a good use of functions and comments.
+The results also seem correct to my eye. I got the same values for the residuals and about
+the same error in the numerical solution.
+So good job!
