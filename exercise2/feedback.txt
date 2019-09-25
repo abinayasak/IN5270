@@ -1,0 +1,30 @@
+Overall a very nice project! A nice touch that you added the possibility of
+using command line arguments to choose which exercise to run the program for.
+
+On lines 49 and 51 you appear to missing a factor of 1/2 in a couple terms.
+
+On line 126, your term with C2 is positive, this appears to be different from
+your report (I think this should be the equation which is at the bottom of page
+1 on your report?).
+For the onesided difference in the general time step you do appear to have this
+term negative as well, where you wrote this (line 223):
+u[i] = -u_2[i] + 2*u_1[i] + C2*(-0.5*(q(x[i]) + q(x[i-1]))*(u_1[i] - u_1[i-1])) + \
+       dt2*f(x[i], t[n])
+
+When you calculate the error it looks like find the max error in each time step
+and then the max error of these later. That should work just fine.
+Another way to calculate the error is to calculate the L2 norm of the error
+in each time step, each time adding it to a total error sum. This is basically
+a double numerical integration over x and t. You can read about this method here:
+http://hplgit.github.io/num-methods-for-PDEs/doc/pub/wave/html/._wave001.html#wave:pde2:fd:MMS
+(eq 26)
+
+There are also a few places where factors of 0.5 could be factored out of
+some parentheses. It's not a big deal for a program of this size, but it would
+lead to less floating point operations total and so a faster program. For more
+complex problems this can be significant (I have many such possible
+optimizations in my own program as well, so this is just a tip).
+
+In general your program works very well and gives very similar results to my own!
+(Also, thanks for finding the problem in my code for exercise d, I was
+very annoyed with that issue!)
