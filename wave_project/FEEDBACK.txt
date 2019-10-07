@@ -1,0 +1,8 @@
+Feedback for abinayasak
+
+For the report:
+Reallyy nice report, well organized, logical and easy to follow! All points in the Project seems to have been adressed, and sufficient explanation of what you've done is included. The results are verified (as asked for) and seem to be correct (except for the manufactured solution). The report is also easy to locate and all files (like movies) are referenced and also simple to locate.
+
+
+For the program:
+All files are simple to locate, and have logical names. The code seems well formatted, well organized and variables are given self explanatory names. The code runs and answers the various points in the exercise.
