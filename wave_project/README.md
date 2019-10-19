@@ -1,4 +1,4 @@
-solver.py: The main solver, can be run as vectorized oe salar version. 
+solver.py: The main solver, can be run as vectorized or salar version. 
 
 tests.py: consist of all tests done in this project. 
 
