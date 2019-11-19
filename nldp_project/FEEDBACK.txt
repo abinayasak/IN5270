@@ -1,0 +1,11 @@
+Feedback by Alexander Sexton
+
+
+Report:
+- Well explained derivation of the variational form of the problem and the Picard iteration process.
+- Good explanation of the verification of the implementation. All the tests seem to give reasonable results.
+
+Code:
+- The PDE problem looks to be correctly implemented in code, and all the test cases give the expected results.
+
+All in all very good :)
