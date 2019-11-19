@@ -1,0 +1,9 @@
+# Feedback on diffusion project
+
+Good and thorough explanation of the formulas and methods; everythin looks
+correct! As far as I can see the implementation is good and produces nice
+results.
+
+All in all a very good report, with great structure and presentation of the
+results. Very nice that you included figures. The code is also well structured
+and understandable.
